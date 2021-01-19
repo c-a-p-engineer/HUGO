@@ -23,17 +23,20 @@ hugo new site <ブログ名>
 起動
 ```
 cd <ブログ名>
-gatsby develop --host=0.0.0.0
+hugo server
 ```
 
 # Usage
 
-http://localhost:8000
+http://localhost:1313
 
 
 # Note
-* [Gatsby](https://www.gatsbyjs.com) 
-* [DockerCompose で Gatsby環境構築](https://qiita.com/ntm718/items/d2d99f50689ebcfe7618) 
+* [HUGO](https://gohugo.io/) 
+
+## Hugo Themes
+* [Github Style](https://themes.gohugo.io/github-style/)
+* [Zzo](https://themes.gohugo.io/hugo-theme-zzo/)
 
 # Author
 * [こぴぺたん](https://twitter.com/c_a_p_engineer)
