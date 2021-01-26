@@ -71,6 +71,8 @@
         <a href="https://www.google.com/bookmarks/mark?op=add&bkmk={{ $ctx.Permalink | absLangURL }}&title={{ $ctx.Title }}" title="{{ i18n "Google Bookmark" | default "Google Bookmark" }}" aria-label="Google Bookmark Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
           {{ partial "svgs/share/google.svg" (dict "width" 35 "height" 35) }}
         </a>
+      {{ else if eq (lower .name) "hatena" }}
+      <a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
       {{ end }}
     {{ end }}
   </div>
