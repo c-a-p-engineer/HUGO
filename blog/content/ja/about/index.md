@@ -1,27 +1,26 @@
 +++
 title = "About"
-description = "Hugo, the world’s fastest framework for building websites"
+description = "こぴぺたん ログ"
 type = "about"
-date = "2019-02-28"
+date = "2021-01-28"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+## はじめに
+当ブログはシステムエンジニアの管理人がシステムや人生であったことを記録・メモをするためのブログになっております。
+間違った内容など、ご指摘事項がありましたらコメントやお問い合わせなどからご連絡していただけると幸いです。
 
-Hugo makes use of a variety of open source projects including:
+## 著作権について
 
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+ブログの記事の内容やコードの内容については、自由に使って頂いて大丈夫です。
+ただし、コピーを行い記事を作成する・悪意のある改変、抜粋などがありましたら抗議させていただきます。
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+## 画像について
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+当ブログで使用している写真は運営者個人が撮影・作成していない限り基本的に著作権フリーなものを使用しています。
+また、著作権の関係でアフィリエイトを使用して画像を表示している箇所があります。
 
-Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+## お問い合わせ
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
-
-
-
+Twitterからお願いします。
+また個別に記事の指摘などがあれば、記事のコメント欄からお願いします。
+[Twitter](https://twitter.com/c_a_p_engineer)

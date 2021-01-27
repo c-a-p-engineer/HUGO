@@ -26,6 +26,16 @@ cd <ブログ名>
 hugo server
 ```
 
+ファイル出力
+```
+hugo
+```
+
+ファイル出力
+```
+hugo && mv ./public/ ../docs/
+```
+
 # Usage
 
 http://localhost:1313
