@@ -2,7 +2,7 @@
 title = "About"
 description = "こぴぺたん ログ"
 type = "about"
-date = "2021-01-28"
+date = "2021-02-01"
 +++
 
 ## はじめに
