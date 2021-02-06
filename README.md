@@ -33,7 +33,7 @@ hugo
 
 ファイル出力
 ```
-hugo && mv ./public/ ../docs/
+hugo && mv -fv ./public/ ../docs/
 ```
 
 # Usage
